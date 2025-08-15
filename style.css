@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0; font-family: system-ui, Arial, sans-serif;
+  min-height: 100vh; display: grid; place-items: center;
+  background: linear-gradient(135deg, #eef1ff, #fdf2ff);
+}
+main {
+  width: min(600px, 92vw); background: #fff; padding: 24px;
+  border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+h1 { margin: 0 0 10px; }
+#emoji { font-size: 4rem; margin-top: 10px; }
+select { margin-left: 8px; padding: 8px 10px; font-size: 1rem; }
