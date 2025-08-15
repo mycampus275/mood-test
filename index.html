@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Mini Mood</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Mini Mood</h1>
+    <p>Pick your mood and I’ll save it online.</p>
+
+    <label for="mood">My mood:</label>
+    <select id="mood">
+      <option value="">— choose —</option>
+      <option>happy</option>
+      <option>sad</option>
+      <option>excited</option>
+      <option>tired</option>
+    </select>
+
+    <div id="emoji" aria-live="polite">🤔</div>
+    <p id="status">Not saved yet.</p>
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>
